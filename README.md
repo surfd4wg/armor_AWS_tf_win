@@ -42,6 +42,12 @@ $newsize.height = 90
 $newsize.width = 200
 $pswindow.windowsize = $newsize
 
+TO grep for processes, open a powershell command window...
+function grep {
+  $input | out-string -stream | select-string $args
+}
+Get-Process | grep armor
+
 
 
 
