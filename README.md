@@ -8,6 +8,8 @@ The various programs are:
 -SSH 
 -User + Password
 
+Rename variables.example to variables.tf, in the same directory as the main.tf file.
+
 The variables in variables.tf must be modified to contain your specific settings.
 The Armor Agent Key is also in variables.tf.
 
