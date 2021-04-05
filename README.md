@@ -20,7 +20,7 @@ RDP into the machine using the Public DNS (IPv4) address in the EC2 console, for
 https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients
 
 SSH into the machine using the Public DNS (IPv4) address in the EC2 console, for the instance, and your private key.
-ssh -i ~/.ssh/<key name>.pem Administrator@ec2-X-X-X-X.compute-1.amazonaws.com
+ssh -i ~/.ssh/(key name).pem Administrator@ec2-X-X-X-X.compute-1.amazonaws.com
   
 To tail the Ec2 user data installation log:
 Get-Content 'C:\Program Files\Amazon\Ec2ConfigService\Logs\Ec2ConfigLog.txt' -Wait
